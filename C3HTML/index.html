@@ -7,12 +7,56 @@
    </head>
    <body>
       <!-- Contenido de la página va aquí-->
-       <h1>Noticias</h1>
-       
-       <h2>Noticia 1</h2>
-            <p>Texto de Noticia 1</p>
-
-       <h2>Noticia 2</h2>
-       
+        <header>  <!-- header se utiliza para espesificar el encabezado de la pagina y para mantener mekor organizao el codigo-->
+            <h1> En Esta Area Iria el Titulo Principal de la Pagina</h1>
+            <span>HOME</span> <!-- span se utiliza para que los textos queden consecutivos en la misma línea-->
+            <span>NOTICIAS</span>
+            <span>CLIMA</span>
+        </header>   
+      
+        <main> <!-- se utiliza main para organizar el contenido principal de la pagina, cuerpo de la pagina-->
+            <section> <!-- se utiliza seccion para representar una seccion independiente del documento-->
+                <h2>Noticias</h2>
+                <hr /> <!-- se utiliza article para representar el contenido del articulo estas etiquetas en general se utilizan para dar geraquia y mejor organización del codigo-->
+                <article>
+                    <h3>Noticia 1</h3>
+                    <div> <!--se utiliza div como etiqueta para agrupar elimentos el cual es necesario mantene agrupado, no mantiene cambios fisicos pero sirve para luego aplicar estilos con mayor facilidad -->
+                    <p>Texto de Noticia 1</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure assumenda ad culpa ipsum blanditiis necessitatibus modi fuga accusamus suscipit, consequuntur qui, laudantium iusto veritatis esse sequi consequatur id, odio deserunt.</p>
+                    </div>    
+                </article>
+                <hr />
+                <article>   
+                    <h3>Noticia 2</h3>
+                    <div>
+                    <p>listado de puntos importanmtes de la noticia enumerados por relevancia</p>
+                    <ol>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                    </ol>
+                    </div>
+                </article>
+                <hr /> 
+                <article>
+                    <h3>Noticia 3</h3>
+                    <div>
+                    <p>listado de puntos importanmtes de la noticia sin algun orden</p>
+                    <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                    </ul>
+                    </div>
+                </article>
+                <hr />
+            </section>
+            </main>
+                <footer> <!-- el footer es la barra de contenido que esta al final de las paginas-->
+                <p>Este el es footer de la pagina y dejaremos varios enlaces</p>
+                <span>Link 1</span> 
+                <span>Link 2</span>
+                <span>Link 3</span>
+                </footer>
    </body>
 </html>
